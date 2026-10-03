@@ -1,13 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+/* --------------- PROPIEDADES DE FLEX ----------------------- */
+
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-nav {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-space-between {
     justify-content: space-between;
-    align-items: center;
+}
+
+.justify-content-right {
+    justify-content: right;
+}
+
+.aling-items-center {
+  align-items: center;
 }
 
 .flex-direction-column {
-    flex-direction: column;
+  flex-direction: column;
+}
+
+.gap20px {
+  gap: 20px;
+}
+
+/* -------------- PROPIEDADES DE STYLO ------------------------ */
+
+.quitarPuntoLista {
+  list-style: none;
+}
+
+.text-decoretion-none {
+    text-decoration: none;
+}
+
+.text-aling-center {
+    text-align: center;
+}
+
+/* -------------- COLORES Y COLORES DE FONDO ------------------- */
+
+.color-white {
+  color: #fff;
+}
+
+.color-black {
+    color: #000;
+}
+
+.background-color-azulfojo {
+    background-color: #13D6FF;
+}
+
+.background-color-grey {
+    background-color: #B9B9B6;
+}
+
+/* --------------- ALTURA Y ANCHURA PROPIEDADES ------------------ */
+
+.height-70vh {
+  height: 70vh;
+}
+
+.width-100percent {
+    width: 100%;
+}
+
+.max-width140px {
+    max-width: 140px;
+}
+
+.max-width-340px {
+    max-width: 340px;
+}
+
+/* ------------------- PADDINGS Y MARGINS --------------------- */
+
+.margin-0px {
+    margin: 0;
+}
+
+.padding-10px-15px {
+    padding: 10px 15px
+}
+
+.padding-right-20px {
+    padding-right: 20px;
+}
+
+/* ---------------------------- BORDES ------------------------ */
+
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+
+/* --------------- PROPIEDADES DE IMAGEN ------------------------ */
+
+.background-image_header {
+  background-image: url("img/imagenPrincipalHeader.jpg");
+}
+
+.background-size-cover {
+  background-size: cover;
+}
+
+.background-position-center {
+  background-position: center;
+}
+
+
+/* ------------------ TRANSPARENCIA STYLOS --------------------  */
+
+header::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #0006;
+    position: absolute;
+}
+
+/* ----------------------- POSITIONS -------------------------- */
+
+.z-idex-1 {
+    z-index: 1;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.boton-posiciones {
+    top: 60px;
 }
