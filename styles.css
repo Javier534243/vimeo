@@ -46,6 +46,10 @@ body {
   flex-direction: column;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .gap-10px {
     gap: 10px;
 }
@@ -264,6 +268,10 @@ body {
 
 /* ------------------- PADDINGS Y MARGINS --------------------- */
 
+.padding-0 {
+    padding: 0;
+}
+
 .padding-2px-5px {
     padding: 2px 5px;
 }
@@ -304,6 +312,10 @@ body {
     padding: 0 60px 30px 60px;
 }
 
+.padding-lados-10px {
+    padding-inline: 10px;
+}
+
 .padding-lados-20px {
     padding-inline: 20px;
 }
@@ -326,6 +338,10 @@ body {
 
 .padding-top-20px {
     padding-top: 20px;
+}
+
+.padding-block-10px {
+    padding-block: 10px;
 }
 
 .padding-block-20px {
@@ -366,10 +382,13 @@ body {
 
 /* ---------------------------- BORDES ------------------------ */
 
+.border-right-footer {
+    border-right: 1px solid #97a1ad;
+}
+
 .border-radius-5px {
     border-radius: 5px;
 }
-
 
 .border-radius-10px {
     border-radius: 10px;
@@ -411,6 +430,14 @@ body {
 
 
 /* ---------------- ESTILOS PARA ELEMENTOS RAROS --------------- */
+
+.inputEstilos {
+    border: 0;
+    outline: 0;
+    background-color: #DFE4EA; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 .hrEstilo {
     width: 100%;
@@ -484,9 +511,15 @@ body {
     position: relative;
 }
 
-.boton-posiciones {
-    top: 30px;
+.position-absolute {
+    position: absolute;
 }
+
+.boton-posiciones {
+    bottom: 30px;
+}
+
+
 
 
 /* ----------- ESTILOS PERSONALIZADOS CON ::BEFORE ----------- */
@@ -531,4 +564,47 @@ header::before {
 
 .detailsSecion[open] ~ i {
     display: none;
+}
+
+/* ------------------- ESTILOS CON :HOVER ------------------- */
+
+.azulListaFooter:hover {
+    color: #17D5FF;
+    transition: color 0.5s  ease-in-out;
+}
+
+.color-gris:hover h3,.color-gris:hover i, .color-gris:hover p {
+    color: #97a1ad;
+    transition: color 0.5s ease-in-out;
+}
+
+/* --------------- MEDIA QUERYS PARA TABLET ---------------- */
+
+@media (min-width: 768px) {
+
+    /* ------------------ FLEX -------------------- */
+
+    .flex-direction-row {
+        flex-direction: row;
+    }
+
+    /*----------------- FONT SIZE -----------------  */
+
+    .font-size-18px {
+        font-size: 18px;
+    }
+
+    .font-size-72px {
+        font-size: 72px;
+    }
+
+    /* -------------- WIDHT Y HEIGHT ---------------- */
+
+    .max-width-300px {
+        max-width: 300px;
+    }
+
+    .max-width-500px {
+        max-width: 500px;
+    }
 }
