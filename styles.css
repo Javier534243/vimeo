@@ -1,9 +1,9 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* --------------- PROPIEDADES DE FLEX ----------------------- */
@@ -19,19 +19,19 @@ body {
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-space-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .justify-space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .justify-content-right {
-    justify-content: right;
+  justify-content: right;
 }
 
 .aling-items-center {
@@ -47,11 +47,11 @@ body {
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .gap-10px {
-    gap: 10px;
+  gap: 10px;
 }
 
 .gap20px {
@@ -68,64 +68,63 @@ body {
 /* --------------------- FONT SIZE --------------------------- */
 
 .font-size-10px {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .font-size-12px {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .font-size-14px {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .font-size-16px {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-size-18px {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .font-size-20px {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
 .font-size-22px {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .font-size-26px {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .font-size-32px {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .font-size-40px {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 /* --------------------- FONT WEIGHT ------------------------ */
 
 .font-weight-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .font-weight-500 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 /* --------------------- FONT FAMILY ------------------------- */
 
-.font-family-ABC_Repro{
-   font-family: "ABC Repro";
+.font-family-ABC_Repro {
+  font-family: "ABC Repro";
 }
 
 .font-family-ABC_Repro_Mono {
-    font-family: "ABC Repro Mono";
+  font-family: "ABC Repro Mono";
 }
 
 /* -------------- PROPIEDADES DE STYLO ------------------------ */
@@ -135,27 +134,27 @@ body {
 }
 
 .text-decoretion-none {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .text-aling-center {
-    text-align: center;
+  text-align: center;
 }
 
 .letter-spacing--1 {
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 }
 
 .line-height-1 {
-    line-height: 1;
+  line-height: 1;
 }
 
 .line-height-1_3 {
-    line-height: 1.3;
+  line-height: 1.3;
 }
 
 .line-height-1_4 {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 /* -------------- COLORES Y COLORES DE FONDO ------------------- */
@@ -165,65 +164,65 @@ body {
 }
 
 .color-light-grey {
-    color: #aaa;
+  color: #aaa;
 }
 
 .color-black {
-    color: #000;
+  color: #000;
 }
 
 .color-grey {
-    color: #444;
+  color: #444;
 }
 
 .color-lightBlue {
-    color: #2DBDDD;
+  color: #2dbddd;
 }
 
 .background-color-black {
-    background-color: #112;
+  background-color: #112;
 }
 
 .background-color-negroFlojo {
-    background-color: #223;
+  background-color: #223;
 }
 
 .background-color-azulfojo {
-    background-color: #13D6FF;
+  background-color: #13d6ff;
 }
 
 .background-color-azul {
-    background-color: #16b4d4;
+  background-color: #16b4d4;
 }
 
 .background-color-grey {
-    background-color: #B9B9B6;
+  background-color: #b9b9b6;
 }
 
 .background-color-rosado {
-    background-color: #DFE4EA;
+  background-color: #dfe4ea;
 }
 
 .background-color-casi-blanco {
-    background-color: #F0F5FA;
+  background-color: #f0f5fa;
 }
 
 .background-color-white {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 /* --------------- ALTURA Y ANCHURA PROPIEDADES ------------------ */
 
 .min-height-35vh {
-    min-height: 35vh;
+  min-height: 35vh;
 }
 
 .min-width-200px {
-    min-width: 200px
+  min-width: 200px;
 }
 
 .max-height-75vh {
-    max-height: 75vh;
+  max-height: 75vh;
 }
 
 .height-70vh {
@@ -231,169 +230,168 @@ body {
 }
 
 .aspect-ratio {
-    aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 10;
 }
 
 .height-100percent {
-    height: 100%;
+  height: 100%;
 }
 
 .width-fit-content {
-    width: fit-content;
+  width: fit-content;
 }
 
 .width-100percent {
-    width: 100%;
+  width: 100%;
 }
 
 .max-width-50px {
-    max-width: 50px;
+  max-width: 50px;
 }
 
 .max-width150px {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 .max-width-300px {
-    max-width: 300px;
+  max-width: 300px;
 }
 
 .max-width-350px {
-    max-width: 350px;
+  max-width: 350px;
 }
 
 .max-width100percent {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* ------------------- PADDINGS Y MARGINS --------------------- */
 
 .padding-0 {
-    padding: 0;
+  padding: 0;
 }
 
 .padding-2px-5px {
-    padding: 2px 5px;
+  padding: 2px 5px;
 }
 
 .padding-6px-15px {
-    padding: 6px 15px;
+  padding: 6px 15px;
 }
 
 .padding-10px-15px {
-    padding: 10px 15px
+  padding: 10px 15px;
 }
 
 .padding-10px-25px {
-    padding: 10px 25px
+  padding: 10px 25px;
 }
 
 .padding-10px-35px {
-    padding: 10px 35px
+  padding: 10px 35px;
 }
 
 .padding-30px-20px {
-    padding: 30px 20px;
+  padding: 30px 20px;
 }
 
 .padding-30px {
-    padding: 30px;
+  padding: 30px;
 }
 
 .padding-bottom-20px {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .padding-40-0-0-20px {
-    padding: 40px 0px 0px 20px ;
+  padding: 40px 0px 0px 20px;
 }
 
 .padding-0-60-30-60px {
-    padding: 0 60px 30px 60px;
+  padding: 0 60px 30px 60px;
 }
 
 .padding-lados-10px {
-    padding-inline: 10px;
+  padding-inline: 10px;
 }
 
 .padding-lados-20px {
-    padding-inline: 20px;
+  padding-inline: 20px;
 }
 
 .padding-lados-40px {
-    padding-inline: 40px;
+  padding-inline: 40px;
 }
 
 .padding-50px {
-    padding: 50px;
+  padding: 50px;
 }
 
 .padding-right-20px {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .padding-top-10px {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .padding-top-20px {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .padding-block-10px {
-    padding-block: 10px;
+  padding-block: 10px;
 }
 
 .padding-block-20px {
-    padding-block: 20px;
+  padding-block: 20px;
 }
 
 .padding-block-40px {
-    padding-block: 40px;
+  padding-block: 40px;
 }
 
 .margin-bottom-0 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .margin-top--5px {
-    margin-top: -5px;
+  margin-top: -5px;
 }
 
 .margin-0px {
-    margin: 0;
+  margin: 0;
 }
 
 .margin-top-5px {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .margin-top-20px {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .margin-lados-20px {
-    margin-inline: 20px;
+  margin-inline: 20px;
 }
 
 .margin-block-20px {
-    margin-block: 20px;
+  margin-block: 20px;
 }
 
 /* ---------------------------- BORDES ------------------------ */
 
 .border-right-footer {
-    border-right: 1px solid #97a1ad;
+  border-right: 1px solid #97a1ad;
 }
 
 .border-radius-5px {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .border-radius-10px {
-    border-radius: 10px;
+  border-radius: 10px;
 }
-
 
 /* --------------- PROPIEDADES DE IMAGEN ------------------------ */
 
@@ -402,15 +400,15 @@ body {
 }
 
 .background-image-senyorRaro {
-    background-image: url("img/imagen-senyorRaro.jpg");
+  background-image: url("img/imagen-senyorRaro.jpg");
 }
 
 .background-image-senyorPantallas {
-    background-image: url("img/senyorPantallas.jpg");
+  background-image: url("img/senyorPantallas.jpg");
 }
 
 .background-image-prado {
-    background-image: url("img/imagenPrado.jpg");
+  background-image: url("img/imagenPrado.jpg");
 }
 
 .background-size-cover {
@@ -425,186 +423,189 @@ body {
   background-position: top;
 }
 
-
 /* ------------------ TRANSPARENCIA STYLOS --------------------  */
-
 
 /* ---------------- ESTILOS PARA ELEMENTOS RAROS --------------- */
 
 .inputEstilos {
-    border: 0;
-    outline: 0;
-    background-color: #DFE4EA; 
-    padding: 5px 10px;
-    border-radius: 5px;
+  border: 0;
+  outline: 0;
+  background-color: #dfe4ea;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .hrEstilo {
-    width: 100%;
-    border: 2px solid #000
+  width: 100%;
+  border: 2px solid #000;
 }
 
 .bloques {
-    height: 18px;
-    width: 100%;
+  height: 18px;
+  width: 100%;
 }
 
 .bloque-rosaFlojo {
-    background-color: #CBD5E0;
+  background-color: #cbd5e0;
 }
 
 .bloque-amarillo {
-    background-color: #FFB116;
+  background-color: #ffb116;
 }
 
 .bloque-azul {
-    background-color: #17D5FF;
+  background-color: #17d5ff;
 }
 
 .bloque-verde {
-    background-color: #209E00 ;
+  background-color: #209e00;
 }
 
 .bloque-rosa {
-    background-color: #FF2ACF  ;
+  background-color: #ff2acf;
 }
 
 .bloque-rojo {
-    background-color: #FB322B ;
+  background-color: #fb322b;
 }
 
 .bloque-blanco {
-    background-color: #E4E9EF;
+  background-color: #e4e9ef;
 }
 
 .bloque-gris1 {
-    background-color: #CBD5E0 ;
+  background-color: #cbd5e0;
 }
 
 .bloque-gris2 {
-    background-color: #97a1ad ;
+  background-color: #97a1ad;
 }
 
 .bloque-gris3 {
-    background-color: #68727c ;
+  background-color: #68727c;
 }
 
 .bloque-gris4 {
-    background-color: #3d4751 ;
+  background-color: #3d4751;
 }
 
 .bloque-gris5 {
-    background-color: #252D35  ;
+  background-color: #252d35;
 }
 
 .bloque-negro {
-    background-color: #181E24   ;
+  background-color: #181e24;
 }
 
 /* ----------------------- POSITIONS -------------------------- */
 
 .z-idex-1 {
-    z-index: 1;
+  z-index: 1;
 }
 
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .position-absolute {
-    position: absolute;
+  position: absolute;
 }
 
 .boton-posiciones {
-    bottom: 30px;
+  bottom: 30px;
 }
-
-
-
 
 /* ----------- ESTILOS PERSONALIZADOS CON ::BEFORE ----------- */
 
 header::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #0006;
-    position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #0006;
+  position: absolute;
 }
 
 #videoDeSenyorRaro::before {
-    content: url("img/icono-video.svg");
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 20px 0 0 20px;
-    scale: 2;
+  content: url("img/icono-video.svg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 20px 0 0 20px;
+  scale: 2;
 }
-
 
 /* -------- ESTILOS PERSONALIZADOS CON [OPEN] -------------- */
 
 .detailsSecion[open] {
-    background-color: #223;
-    border-radius: 10px;
-    padding: 20px;
+  background-color: #223;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .detailsSecion2[open] {
-    background-color: #F0F5FA;
-    width: 100%;
-    padding: 20px 40px;
-    border-radius: 10px;
+  background-color: #f0f5fa;
+  width: 100%;
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
 .detailsSecion2[open] ~ i {
-    display: none;
+  display: none;
 }
 
 .detailsSecion[open] ~ i {
-    display: none;
+  display: none;
 }
 
 /* ------------------- ESTILOS CON :HOVER ------------------- */
 
 .azulListaFooter:hover {
-    color: #17D5FF;
-    transition: color 0.5s  ease-in-out;
+  color: #17d5ff;
+  transition: color 0.5s ease-in-out;
 }
 
-.color-gris:hover h3,.color-gris:hover i, .color-gris:hover p {
-    color: #97a1ad;
-    transition: color 0.5s ease-in-out;
+.color-gris:hover h3,
+.color-gris:hover i,
+.color-gris:hover p {
+  color: #97a1ad;
+  transition: color 0.5s ease-in-out;
 }
 
 /* --------------- MEDIA QUERYS PARA TABLET ---------------- */
 
 @media (min-width: 768px) {
+  /* ------------------ FLEX -------------------- */
 
-    /* ------------------ FLEX -------------------- */
+  .flex-direction-row-tablet {
+    flex-direction: row;
+  }
 
-    .flex-direction-row {
-        flex-direction: row;
-    }
+  .justify-content-center-tablet {
+    justify-content: center;
+  }
 
-    /*----------------- FONT SIZE -----------------  */
+  /*----------------- FONT SIZE -----------------  */
 
-    .font-size-18px {
-        font-size: 18px;
-    }
+  .font-size-18px-tablet {
+    font-size: 18px;
+  }
 
-    .font-size-72px {
-        font-size: 72px;
-    }
+  .font-size-72px-tablet {
+    font-size: 72px;
+  }
 
-    /* -------------- WIDHT Y HEIGHT ---------------- */
+  /* -------------- WIDHT Y HEIGHT ---------------- */
 
-    .max-width-300px {
-        max-width: 300px;
-    }
+  .max-width-180px-tablet {
+    max-width: 180px;
+  }
 
-    .max-width-500px {
-        max-width: 500px;
-    }
+  .max-width-300px-tablet {
+    max-width: 300px;
+  }
+
+  .max-width-500px-tablet {
+    max-width: 500px;
+  }
 }
