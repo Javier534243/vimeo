@@ -38,6 +38,10 @@ body {
   align-items: center;
 }
 
+.aling-items-start {
+  align-items: start;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
@@ -61,6 +65,10 @@ body {
 
 .font-size-10px {
     font-size: 10px;
+}
+
+.font-size-12px {
+    font-size: 12px;
 }
 
 .font-size-14px {
@@ -130,8 +138,8 @@ body {
     text-align: center;
 }
 
-.letter-spacing--0_5 {
-    letter-spacing: -0.5px;
+.letter-spacing--1 {
+    letter-spacing: -1px;
 }
 
 .line-height-1 {
@@ -164,6 +172,10 @@ body {
     color: #444;
 }
 
+.color-lightBlue {
+    color: #2DBDDD;
+}
+
 .background-color-black {
     background-color: #112;
 }
@@ -176,8 +188,16 @@ body {
     background-color: #13D6FF;
 }
 
+.background-color-azul {
+    background-color: #16b4d4;
+}
+
 .background-color-grey {
     background-color: #B9B9B6;
+}
+
+.background-color-rosado {
+    background-color: #DFE4EA;
 }
 
 .background-color-casi-blanco {
@@ -214,6 +234,10 @@ body {
     height: 100%;
 }
 
+.width-fit-content {
+    width: fit-content;
+}
+
 .width-100percent {
     width: 100%;
 }
@@ -239,6 +263,14 @@ body {
 }
 
 /* ------------------- PADDINGS Y MARGINS --------------------- */
+
+.padding-2px-5px {
+    padding: 2px 5px;
+}
+
+.padding-6px-15px {
+    padding: 6px 15px;
+}
 
 .padding-10px-15px {
     padding: 10px 15px
@@ -268,6 +300,10 @@ body {
     padding: 40px 0px 0px 20px ;
 }
 
+.padding-0-60-30-60px {
+    padding: 0 60px 30px 60px;
+}
+
 .padding-lados-20px {
     padding-inline: 20px;
 }
@@ -282,6 +318,14 @@ body {
 
 .padding-right-20px {
     padding-right: 20px;
+}
+
+.padding-top-10px {
+    padding-top: 10px;
+}
+
+.padding-top-20px {
+    padding-top: 20px;
 }
 
 .padding-block-20px {
@@ -308,6 +352,10 @@ body {
     margin-top: 5px;
 }
 
+.margin-top-20px {
+    margin-top: 20px;
+}
+
 .margin-lados-20px {
     margin-inline: 20px;
 }
@@ -317,6 +365,11 @@ body {
 }
 
 /* ---------------------------- BORDES ------------------------ */
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
 
 .border-radius-10px {
     border-radius: 10px;
@@ -335,6 +388,10 @@ body {
 
 .background-image-senyorPantallas {
     background-image: url("img/senyorPantallas.jpg");
+}
+
+.background-image-prado {
+    background-image: url("img/imagenPrado.jpg");
 }
 
 .background-size-cover {
@@ -389,6 +446,34 @@ body {
     background-color: #FB322B ;
 }
 
+.bloque-blanco {
+    background-color: #E4E9EF;
+}
+
+.bloque-gris1 {
+    background-color: #CBD5E0 ;
+}
+
+.bloque-gris2 {
+    background-color: #97a1ad ;
+}
+
+.bloque-gris3 {
+    background-color: #68727c ;
+}
+
+.bloque-gris4 {
+    background-color: #3d4751 ;
+}
+
+.bloque-gris5 {
+    background-color: #252D35  ;
+}
+
+.bloque-negro {
+    background-color: #181E24   ;
+}
+
 /* ----------------------- POSITIONS -------------------------- */
 
 .z-idex-1 {
@@ -409,7 +494,7 @@ body {
 header::before {
     content: "";
     height: 100%;
-    width: 100%
+    width: 100%;
     border-radius: 10px;
     background-color: #0006;
     position: absolute;
@@ -431,6 +516,17 @@ header::before {
     background-color: #223;
     border-radius: 10px;
     padding: 20px;
+}
+
+.detailsSecion2[open] {
+    background-color: #F0F5FA;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.detailsSecion2[open] ~ i {
+    display: none;
 }
 
 .detailsSecion[open] ~ i {
