@@ -22,6 +22,10 @@ body {
     justify-content: center;
 }
 
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
 .justify-space-between {
     justify-content: space-between;
 }
@@ -45,6 +49,14 @@ body {
 .gap20px {
   gap: 20px;
 }
+
+.gap30px {
+  gap: 30px;
+}
+
+.gap40px {
+  gap: 40px;
+}
 /* --------------------- FONT SIZE --------------------------- */
 
 .font-size-10px {
@@ -67,8 +79,13 @@ body {
     font-size: 20px;
 }
 
+
 .font-size-22px {
     font-size: 22px;
+}
+
+.font-size-26px {
+    font-size: 26px;
 }
 
 .font-size-32px {
@@ -177,6 +194,10 @@ body {
     min-height: 35vh;
 }
 
+.min-width-200px {
+    min-width: 200px
+}
+
 .max-height-75vh {
     max-height: 75vh;
 }
@@ -225,6 +246,10 @@ body {
 
 .padding-10px-25px {
     padding: 10px 25px
+}
+
+.padding-10px-35px {
+    padding: 10px 35px
 }
 
 .padding-30px-20px {
@@ -308,6 +333,10 @@ body {
     background-image: url("img/imagen-senyorRaro.jpg");
 }
 
+.background-image-senyorPantallas {
+    background-image: url("img/senyorPantallas.jpg");
+}
+
 .background-size-cover {
   background-size: cover;
 }
@@ -324,6 +353,41 @@ body {
 /* ------------------ TRANSPARENCIA STYLOS --------------------  */
 
 
+/* ---------------- ESTILOS PARA ELEMENTOS RAROS --------------- */
+
+.hrEstilo {
+    width: 100%;
+    border: 2px solid #000
+}
+
+.bloques {
+    height: 18px;
+    width: 100%;
+}
+
+.bloque-rosaFlojo {
+    background-color: #CBD5E0;
+}
+
+.bloque-amarillo {
+    background-color: #FFB116;
+}
+
+.bloque-azul {
+    background-color: #17D5FF;
+}
+
+.bloque-verde {
+    background-color: #209E00 ;
+}
+
+.bloque-rosa {
+    background-color: #FF2ACF  ;
+}
+
+.bloque-rojo {
+    background-color: #FB322B ;
+}
 
 /* ----------------------- POSITIONS -------------------------- */
 
