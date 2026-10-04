@@ -71,6 +71,10 @@ body {
     font-size: 22px;
 }
 
+.font-size-32px {
+    font-size: 32px;
+}
+
 .font-size-40px {
     font-size: 40px;
 }
@@ -147,12 +151,24 @@ body {
     background-color: #112;
 }
 
+.background-color-negroFlojo {
+    background-color: #223;
+}
+
 .background-color-azulfojo {
     background-color: #13D6FF;
 }
 
 .background-color-grey {
     background-color: #B9B9B6;
+}
+
+.background-color-casi-blanco {
+    background-color: #F0F5FA;
+}
+
+.background-color-white {
+    background-color: #fff;
 }
 
 /* --------------- ALTURA Y ANCHURA PROPIEDADES ------------------ */
@@ -215,8 +231,24 @@ body {
     padding: 30px 20px;
 }
 
+.padding-30px {
+    padding: 30px;
+}
+
+.padding-bottom-20px {
+    padding-bottom: 20px;
+}
+
+.padding-40-0-0-20px {
+    padding: 40px 0px 0px 20px ;
+}
+
 .padding-lados-20px {
     padding-inline: 20px;
+}
+
+.padding-lados-40px {
+    padding-inline: 40px;
 }
 
 .padding-50px {
@@ -231,12 +263,32 @@ body {
     padding-block: 20px;
 }
 
+.padding-block-40px {
+    padding-block: 40px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-top--5px {
+    margin-top: -5px;
+}
+
 .margin-0px {
     margin: 0;
 }
 
+.margin-top-5px {
+    margin-top: 5px;
+}
+
 .margin-lados-20px {
     margin-inline: 20px;
+}
+
+.margin-block-20px {
+    margin-block: 20px;
 }
 
 /* ---------------------------- BORDES ------------------------ */
@@ -293,7 +345,7 @@ body {
 header::before {
     content: "";
     height: 100%;
-    width: 100%;
+    width: 100%
     border-radius: 10px;
     background-color: #0006;
     position: absolute;
@@ -306,4 +358,17 @@ header::before {
     top: 0;
     padding: 20px 0 0 20px;
     scale: 2;
+}
+
+
+/* -------- ESTILOS PERSONALIZADOS CON [OPEN] -------------- */
+
+.detailsSecion[open] {
+    background-color: #223;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.detailsSecion[open] ~ i {
+    display: none;
 }
