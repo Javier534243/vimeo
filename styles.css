@@ -261,6 +261,10 @@ body {
   max-width: 350px;
 }
 
+.max-width-500px {
+  max-width: 600px;
+}
+
 .max-width100percent {
   max-width: 100%;
 }
@@ -577,6 +581,18 @@ header::before {
 @media (min-width: 768px) {
   /* ------------------ FLEX -------------------- */
 
+  .flex-propiedades-tablet {
+    flex: 1 1 auto;
+  }
+
+  .flex-tablet {
+    display: flex;
+  }
+
+  .flex-wrap-tablet {
+    flex-wrap: wrap;
+  }
+
   .flex-direction-row-tablet {
     flex-direction: row;
   }
@@ -596,6 +612,10 @@ header::before {
   }
 
   /* -------------- WIDHT Y HEIGHT ---------------- */
+
+  .min-width-300px-tablet {
+    min-width: 300px;
+  }
 
   .max-width-180px-tablet {
     max-width: 180px;
