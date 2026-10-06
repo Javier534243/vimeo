@@ -282,6 +282,14 @@ body {
   max-width: 600px;
 }
 
+.max-width-1220px {
+  max-width: 1220px;
+}
+
+.max-width-1440px {
+  max-width: 1440px;
+}
+
 .max-width100percent {
   max-width: 100%;
 }
@@ -729,6 +737,30 @@ header::before {
   .secionColeContentedor-tablet {
     align-items: end;
     justify-content: end;
+  }
+
+}
+
+/* --------------- MEDIA QUERYS PARA ORDENADOR  ---------------- */
+
+@media (min-width: 1024px) {
+
+  /* ------------------ FLEX --------------------- */
+
+  .flex-ordenador {
+    display: flex;
+  }
+
+  /* ------------- WIDTH Y HEIGHT ---------------- */
+
+  .max-height-688px {
+    max-height: 688px;
+  }
+
+  /* ------------ ESTILOS DIFERENTES ------------- */
+
+  .hidden-ordenador {
+    display: none;
   }
 
 }

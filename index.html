@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="fonts.css" />
     <link rel="icon" href="img/icono-vimeo.png" />
   </head>
-  <body>
-    <nav class="flex-nav padding-lados-20px">
+  <body class="">
+    <nav class="flex-nav padding-lados-20px max-width-1440px margin-inline-auto">
       <div><img src="img/logoVimeo.svg" alt="Logo" /></div>
       <ul class="flex-nav quitarPuntoLista gap20px">
         <li class="flex flex-direction-column aling-items-center">
@@ -24,38 +24,48 @@
         </li>
       </ul>
     </nav>
-    <header
-      class="background-image_header background-size-cover background-position-center height-70vh border-radius-10px flex justify-content-center aling-items-center flex-direction-column text-aling-center position-relative gap20px margin-lados-20px position-relative"
-    >
-      <div class="z-idex-1 flex flex-direction-column aling-items-center gap20px">
-        <div class="flex flex-direction-column gap-10px aling-items-center">
-          <p class="color-white margin-0px font-family-ABC_Repro_Mono font-size-14px">SU PLATAFORMA DE VIDEO COMPLETA</p>
-          <h1 class="color-white margin-0px font-family-ABC_Repro max-width-350px font-size-40px line-height-1 font-weight-500 font-size-72px-tablet max-width-500px-tablet">Sus videos, a su manera</h1>
-          <p class="color-white max-width-350px margin-0px font-family-ABC_Repro font-size-16px line-height-1_3 font-weight-400 letter-spacing--1 max-width-500px-tablet font-size-18px-tablet">
-            La plataforma sin anuncios de Vimeo le ofrece todo lo que necesita para alojar, gestionar y compartir videos de alta calidad.
-          </p>
+    <div class="max-width-1440px margin-inline-auto">
+      <header
+        class="background-image_header background-size-cover background-position-center height-70vh border-radius-10px flex justify-content-center aling-items-center flex-direction-column text-aling-center position-relative gap20px margin-lados-20px position-relative max-height-688px"
+      >
+        <div class="z-idex-1 flex flex-direction-column aling-items-center gap20px">
+          <div class="flex flex-direction-column gap-10px aling-items-center">
+            <p class="color-white margin-0px font-family-ABC_Repro_Mono font-size-14px">SU PLATAFORMA DE VIDEO COMPLETA</p>
+            <h1 class="color-white margin-0px font-family-ABC_Repro max-width-350px font-size-40px line-height-1 font-weight-500 font-size-72px-tablet max-width-500px-tablet">Sus videos, a su manera</h1>
+            <p class="color-white max-width-350px margin-0px font-family-ABC_Repro font-size-16px line-height-1_3 font-weight-400 letter-spacing--1 max-width-500px-tablet font-size-18px-tablet">
+              La plataforma sin anuncios de Vimeo le ofrece todo lo que necesita para alojar, gestionar y compartir videos de alta calidad.
+            </p>
+          </div>
+          <div class="flex flex-direction-column gap20px width-100percent aling-items-center flex-direction-row-tablet justify-content-center-tablet">
+            <a class="text-decoretion-none color-black background-color-azulfojo flex width-100percent justify-space-between padding-10px-15px border-radius-10px aling-items-center font-family-ABC_Repro font-size-16px max-width-180px-tablet" href="#">
+              <div>Ver los planes</div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a class="text-decoretion-none color-white flex aling-items-center gap20px font-family-ABC_Repro font-size-16px" href="#">
+              <div class="">Probar gratis</div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
-        <div class="flex flex-direction-column gap20px width-100percent aling-items-center flex-direction-row-tablet justify-content-center-tablet">
-          <a class="text-decoretion-none color-black background-color-azulfojo flex width-100percent justify-space-between padding-10px-15px border-radius-10px aling-items-center font-family-ABC_Repro font-size-16px max-width-180px-tablet" href="#">
-            <div>Ver los planes</div>
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-          <a class="text-decoretion-none color-white flex aling-items-center gap20px font-family-ABC_Repro font-size-16px" href="#">
-            <div class="">Probar gratis</div>
-            <i class="fa-solid fa-arrow-right"></i>
+        <div class="flex justify-content-right width-100percent padding-right-20px position-absolute boton-posiciones hidden-ordenador">
+          <a
+            class="z-idex-1 text-decoretion-none color-black flex aling-items-center gap-10px padding-10px-15px border-radius-10px width-100percent max-width150px background-color-grey boton-header-margins position-relative font-family-ABC_Repro font-size-16px"
+            href="#"
+          >
+            <div>Reproducir</div>
+            <i class="fa-solid fa-play"></i>
           </a>
         </div>
-      </div>
-      <div class="flex justify-content-right width-100percent padding-right-20px position-absolute boton-posiciones">
-        <a
-          class="z-idex-1 text-decoretion-none color-black flex aling-items-center gap-10px padding-10px-15px border-radius-10px width-100percent max-width150px background-color-grey boton-header-margins position-relative font-family-ABC_Repro font-size-16px"
-          href="#"
+        <div
+          class="hidden position-absolute boton-posiciones flex-ordenador justify-content-right aling-items-center gap20px position-relative boton-posiciones right20px padding-block-20px padding-lados-20px background-color-transparent border-radius-10px font-family-ABC_Repro line-height-1 text-align-left"
         >
-          <div>Reproducir</div>
-          <i class="fa-solid fa-play"></i>
-        </a>
-      </div>
-    </header>
+          <div class="background-color-azulfojo padding-10px-35px border-radius-10px">
+            <i class="fa-solid fa-play font-size-22px" aria-hidden="true"></i>
+          </div>
+          <div class="max-width150px">Descubra por qué a millones de personas les encanta Vimeo</div>
+        </div>
+      </header>
+    </div>
     <main>
       <div class="flex justify-content-center">
         <p class="text-aling-center font-family-ABC_Repro font-size-20px padding-50px line-height-1_4 max-width-500px">Con la confianza de más de 287 millones de creativos, profesionales del marketing y empresas</p>
@@ -72,7 +82,7 @@
       </div>
       <div class="background-color-black font-family-ABC_Repro padding-30px-20px flex flex-direction-column aling-items-center gap20px">
         <h2 class="color-white font-size-22px font-weight-500 text-aling-center margin-0px line-height-1_3">La plataforma que impulsa su estrategia de video</h2>
-        <div class="flex-tablet flex-wrap-tablet gap20px">
+        <div class="flex-tablet flex-wrap-tablet gap50px max-width-1220px justify-content-center">
           <div class="flex-propiedades-tablet">
             <a href="#">
               <img class="width-100percent" src="https://vimeo.bynder.com/transform/b716620e-187c-4d76-b1fa-4a9d8057a3ab/-High-Quality-Maker-Vimeo-Shoot" alt="video raro" />
@@ -135,7 +145,7 @@
           </div>
         </div>
       </div>
-      <div class="padding-30px-20px font-family-ABC_Repro">
+      <div class="padding-30px-20px font-family-ABC_Repro max-width-1440px margin-inline-auto">
         <div
           id="videoDeSenyorRaro"
           class="background-image-senyorRaro background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet headerTablet"
@@ -244,7 +254,7 @@
         <h2 class="font-size-20px font-weight-500">Lo que dicen los clientes</h2>
       </div>
       <div class="font-family-ABC_Repro background-color-black padding-lados-40px padding-bottom-20px">
-        <div>
+        <div class="max-width-1440px margin-inline-auto">
           <div class="flex justify-content-center text-aling-center padding-block-40px">
             <i class="fa-solid fa-star color-white font-size-32px margin-top--5px"></i>
             <h2 class="color-white font-weight-500 font-size-32px letter-spacing--1 margin-top--5px margin-bottom-0 line-height-1 font-size-40px-tablet">IA que lleva sus videos al siguiente nivel</h2>
@@ -300,7 +310,7 @@
           </div>
         </div>
       </div>
-      <div class="padding-30px-20px flex flex-direction-column gap20px font-family-ABC_Repro">
+      <div class="padding-30px-20px flex flex-direction-column gap20px font-family-ABC_Repro max-width-1440px margin-inline-auto">
         <div class="background-image-senyorPantallas background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet">
           <div class="background-color-azulfojo padding-10px-35px border-radius-10px hidden-tablet">
             <i class="fa-solid fa-play font-size-22px"></i>
@@ -368,7 +378,7 @@
         </div>
       </div>
       <div class="font-family-ABC_Repro background-color-black padding-lados-40px padding-block-20px padding-block-40px line-height-1_3 letter-spacing--1 flex flex-direction-column gap40px">
-        <div class="text-aling-center">
+        <div class="text-aling-center max-width-1440px margin-inline-auto">
           <h2 class="margin-0px color-white font-size-32px font-weight-500 font-size-40px text-align-left">Únase a una próspera comunidad de los mejores narradores del mundo</h2>
           <p class="color-white font-size-20px-tablet text-align-left">
             Durante más de 20 años, visionarios aclamados y talentos desconocidos han subido los mejores videos de Internet aquí mismo. Ahora, nuestra asociación exclusiva con la Academia de Cine Europeo trae cortometrajes galardonados junto con nuestra
@@ -379,7 +389,7 @@
             <i class="fa-solid fa-square-up-right"></i>
           </a>
         </div>
-        <div class="background-image-prado background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet">
+        <div class="background-image-prado background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet max-width-1440px margin-inline-auto">
           <div class="background-color-azulfojo padding-10px-35px border-radius-10px hidden-tablet">
             <i class="fa-solid fa-play color-white font-size-22px"></i>
           </div>
@@ -400,7 +410,7 @@
         <div class="bloques bloque-gris5"></div>
         <div class="bloques bloque-negro"></div>
       </div>
-      <div class="font-family-ABC_Repro text-aling-center padding-block-40px padding-lados-20px flex flex-direction-column gap20px">
+      <div class="font-family-ABC_Repro text-aling-center padding-block-40px padding-lados-20px flex flex-direction-column gap20px max-width-1440px margin-inline-auto">
         <h2 class="font-size-32px font-weight-500 margin-0px font-size-40px-tablet">Descubra lo último de Vimeo</h2>
         <div class="flex flex-direction-column gap20px flex-direction-row-tablet">
           <div class="background-color-casi-blanco padding-block-40px padding-lados-20px flex flex-direction-column aling-items-center border-radius-10px width-100percent padding-lados-40px-tablet">
@@ -427,7 +437,7 @@
           </div>
         </div>
       </div>
-      <div class="padding-0-60-30-60px font-family-ABC_Repro flex-tablet justify-content-space-between-tablet gap50px">
+      <div class="padding-0-60-30-60px font-family-ABC_Repro flex-tablet justify-content-space-between-tablet gap50px max-width-1440px margin-inline-auto">
         <div class="max-width-300px-tablet">
           <div class="line-height-1_3">
             <h2 class="font-size-32px font-weight-500 letter-spacing--1">Probar gratis</h2>
@@ -453,7 +463,7 @@
         </div>
       </div>
     </main>
-    <footer class="font-family-ABC_Repro">
+    <footer class="font-family-ABC_Repro max-width-1440px margin-inline-auto">
       <div class="padding-0-60-30-60px font-family-ABC_Repro hidden-tablet">
         <div class="flex justify-space-between aling-items-start width-100percent padding-block-20px">
           <details class="detailsSecion2 width-100percent flex flex-direction-column gap20px detailsFooter">
