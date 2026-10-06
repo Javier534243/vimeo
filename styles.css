@@ -188,7 +188,7 @@ body {
 }
 
 .background-color-black {
-  background-color: #112;
+  background-color: #141a20;
 }
 
 .background-color-negroFlojo {
@@ -792,6 +792,14 @@ header::before {
     justify-content: center;
   }
 
+  .justify-content-space-evenly-ordenador {
+    justify-content: space-evenly;
+  }
+
+  .justify-content-space-around-ordenador {
+    justify-content: space-around;
+  }
+
   .justify-content-space-between-ordenador {
     justify-content: space-between;
   }
@@ -876,6 +884,14 @@ header::before {
     max-width: 420px;
   }
 
+  .max-width-500px-ordenador {
+    max-width: 500px;
+  }
+
+  .max-width-600px-ordenador {
+    max-width: 600px;
+  }
+
   .max-width-700px-ordenador {
     max-width: 700px;
   }
@@ -906,8 +922,18 @@ header::before {
     right: 35px;
   }
 
-  /* ------------- DETAILS [OPEN] ----------------- */
+  /* ------------- POSITIONS ----------------- */
 
+  .position-sticky-ordenador {
+    position: sticky;
+  }
   
+  .top0-ordenador {
+    top: 0;
+  }
+
+  .z-index-3_ordenador {
+    z-index: 100;
+  }
 
 }
