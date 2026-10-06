@@ -195,6 +195,11 @@ body {
   background-color: #223;
 }
 
+.background-color-negroFlojito {
+  background-color: #334;
+}
+
+
 .background-color-azulfojo {
   background-color: #13d6ff;
 }
@@ -238,6 +243,11 @@ body {
   max-height: 75vh;
 }
 
+.max-height-580px {
+  max-height: 580px;
+  height: 100%;
+}
+
 .height-70vh {
   height: 70vh;
 }
@@ -268,6 +278,10 @@ body {
 
 .max-width150px {
   max-width: 150px;
+}
+
+.max-width250px {
+  max-width: 250px;
 }
 
 .max-width-300px {
@@ -672,6 +686,10 @@ header::before {
     font-size: 20px;
   }
 
+  .font-size-24px-tablet {
+    font-size: 24px;
+  }
+
   .font-size-40px-tablet {
     font-size: 40px;
   }
@@ -727,7 +745,7 @@ header::before {
   /* ----------- ESTILOS COMPLETOS --------------- */
 
   .hidden-tablet {
-    display: none;
+    display: none !important;
   }
 
   .headerTablet::before {
