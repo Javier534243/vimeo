@@ -768,12 +768,44 @@ header::before {
     display: flex;
   }
 
+  .justify-content-left-ordenador {
+    justify-content: left;
+  }
+
   .flex-direction-row-ordenador {
     flex-direction: row;
   }
 
+  .flex-direction-column-ordenador {
+    flex-direction: column;
+  }
+
+  .flex-direction-row-reverse-ordenador {
+    flex-direction: row-reverse;
+  }
+
+  .flex-direction-column-reverse-ordenador {
+    flex-direction: column-reverse;
+  }
+
+  .justify-content-center-ordenador {
+    justify-content: center;
+  }
+
   .justify-content-space-between-ordenador {
     justify-content: space-between;
+  }
+
+  .align-items-center-ordenador {
+    align-items: center;
+  }
+
+  .aling-items-start-ordenador {
+    align-items: start;
+  }
+
+  .gap10px-ordenador {
+    gap: 10px;
   }
 
   .gap20px-ordenador {
@@ -788,23 +820,76 @@ header::before {
     gap: 60px;
   }
 
+  /* ------------ ESTILOS DE TEXTO --------------- */
+
+  .text-aling-left-ordenador {
+    text-align: left;
+  }
+
   /* -------------- FONT SIZE -------------------- */
 
   .font-size-18px-ordenador {
     font-size: 18px;
   }
 
+  .font-size-20px-ordenador {
+    font-size: 20px;
+  }
+
+  .font-size-40px-ordenador {
+    font-size: 40px;
+  }
+
   /* -------------- PADDING Y MARGINS ------------ */
 
+  .padding-top-0-ordenador {
+    padding-top: 0;
+  }
 
   .padding-lados-0-ordenador {
     padding-inline: 0;
   }
 
+  .margin-inline-auto-ordenador {
+    margin-inline: auto;
+  }
+
+  .padding-block-40px-ordenador {
+    padding-block: 40px;
+  }
+
+  .padding-right-50px-ordenador {
+    padding-right: 50px;
+  }
+
   /* ------------- WIDTH Y HEIGHT ---------------- */
+
+  .max-width-100px-ordenador {
+    max-width: 100px;
+  }
+
+  .max-width-250px-ordenador {
+    max-width: 250px;
+  }
+
+  .max-width-420px-ordenador {
+    max-width: 420px;
+  }
+
+  .max-width-700px-ordenador {
+    max-width: 700px;
+  }
+
+  .width-fit-content-ordenador {
+    width: fit-content;
+  }
 
   .max-height-688px {
     max-height: 688px;
+  }
+
+  .width-100percent-ordenador {
+    width: 100%;
   }
 
   /* ------------ ESTILOS DIFERENTES ------------- */
@@ -816,5 +901,13 @@ header::before {
   .top-vimeo-ordenador {
     top: 4px;
   }
+
+  .right-35px-ordenador {
+    right: 35px;
+  }
+
+  /* ------------- DETAILS [OPEN] ----------------- */
+
+  
 
 }
