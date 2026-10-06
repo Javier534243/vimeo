@@ -11,9 +11,47 @@
     <link rel="icon" href="img/icono-vimeo.png" />
   </head>
   <body class="">
-    <nav class="flex-nav padding-lados-20px max-width-1440px margin-inline-auto">
-      <div><img src="img/logoVimeo.svg" alt="Logo" /></div>
-      <ul class="flex-nav quitarPuntoLista gap20px">
+    <nav class="flex-nav padding-lados-20px max-width-1440px margin-inline-auto font-family-ABC_Repro">
+      <div><img class="position-relative top-vimeo-ordenador" src="img/logoVimeo.svg" alt="Logo" /></div>
+      <ul class="hidden flex-ordenador quitarPuntoLista padding-0 font-size-14px">
+        <li class="padding-10px-15px">Funciones</li>
+        <li class="padding-10px-15px">Casos de uso</li>
+        <li class="padding-10px-15px">Enterprise</li>
+        <li class="padding-10px-15px">Conocer</li>
+        <li class="padding-10px-15px">
+          <a href="#" class="text-decoretion-none color-black">Precio</a>
+        </li>
+        <li class="padding-10px-15px">
+          <a href="#" class="text-decoretion-none color-black">What's new</a>
+        </li>
+      </ul>
+      <ul class="hidden flex-ordenador quitarPuntoLista padding-0 font-size-14px">
+        <li class="padding-10px-15px">
+          <a href="#" class="text-decoretion-none color-black"> Comunicarse con ventas </a>
+        </li>
+        <li class="">
+          <a href="#" class="text-decoretion-none color-black flex gap-10px aling-items-center background-color-azulfojo padding-10px-15px border-radius-10px">
+            <div>Unirse</div>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </li>
+        <li class="padding-block-10px padding-lados-10px">
+          <a href="#" class="color-black">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+          </a>
+        </li>
+        <li class="padding-block-10px padding-lados-10px">
+          <a href="#" class="color-black">
+            <i class="fa-brands fa-square-youtube"></i>
+          </a>
+        </li>
+        <li class="padding-block-10px padding-lados-10px">
+          <a href="#" class="color-black">
+            <i class="fa-solid fa-user"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="flex-nav quitarPuntoLista gap20px hidden-ordenador">
         <li class="flex flex-direction-column aling-items-center">
           <i class="fa-regular fa-comments"></i>
           <span class="font-family-ABC_Repro font-size-10px">Comunicarse con ventas</span>
@@ -172,7 +210,7 @@
       <div class="padding-30px-20px font-family-ABC_Repro max-width-1440px margin-inline-auto">
         <div
           id="videoDeSenyorRaro"
-          class="background-image-senyorRaro background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet headerTablet"
+          class="background-image-senyorRaro background-size-cover background-position-top flex justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet headerTablet hidden-ordenador"
         >
           <a href="#" class="color-black hidden-tablet">
             <div class="background-color-azulfojo padding-10px-35px border-radius-10px">
@@ -211,67 +249,95 @@
             <i class="fa-solid fa-arrow-right color-white"></i>
           </a>
         </div>
-        <div class="padding-40-0-0-20px flex flex-direction-column gap20px">
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-solid fa-video color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Profesionales de los videos</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+        <div class="padding-40-0-0-20px flex flex-direction-column gap20px flex-direction-row-ordenador gap60px-ordenador justify-content-space-between-ordenador padding-lados-0-ordenador">
+          <div
+            id="videoDeSenyorRaro"
+            class="hidden background-image-senyorRaro background-size-cover background-position-top flex-ordenador justify-content-center aling-items-center border-radius-10px aspect-ratio position-relative secionColeContentedor-tablet headerTablet width-100percent"
+          >
+            <a href="#" class="color-black hidden-tablet">
+              <div class="background-color-azulfojo padding-10px-35px border-radius-10px">
+                <i class="fa-solid fa-play font-size-22px"></i>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Presente trabajos, colabore con clientes y conéctese con una comunidad apasionada de cineastas y creativos.</p>
-            </div>
-          </a>
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-solid fa-chart-line color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Equipos de marketing</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+            </a>
+            <div class="hidden flex-tablet background-color-transparent padding-10px-25px aling-items-center border-radius-10px position-relative boton-posiciones gap20px right20px">
+              <img class="max-width-50px width-100percent" src="img/icono-video.svg" alt="icono raro" />
+              <div class="">
+                <div class="font-size-20px">Cole Webley</div>
+                <div class="flex gap40px">
+                  <div class="max-width150px font-size-12px text-aling-center">Cineasta seleccionado por el personal</div>
+                  <div>/</div>
+                  <div class="max-width-100px font-size-12px text-aling-center">miembro desde 2011</div>
+                </div>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Eleve su marca con videos de alta calidad y amplíe su alcance con precisión y control.</p>
+              <a href="#" class="color-black">
+                <div class="background-color-azulfojo padding-10px-35px border-radius-10px">
+                  <i class="fa-solid fa-play font-size-22px"></i>
+                </div>
+              </a>
             </div>
-          </a>
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-solid fa-desktop color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Equipos de comunicacion</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+          </div>
+          <div>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-solid fa-video color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Profesionales de los videos</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Presente trabajos, colabore con clientes y conéctese con una comunidad apasionada de cineastas y creativos.</p>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Centralice la comunicación y maximice la interacción con eventos en vivo de alta calidad y alojamiento de video seguro.</p>
-            </div>
-          </a>
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-solid fa-book-open color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Lideres de aprendizaje y desarrollo</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+            </a>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-solid fa-chart-line color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Equipos de marketing</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Eleve su marca con videos de alta calidad y amplíe su alcance con precisión y control.</p>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Escale la capacitación con videos interactivos impulsudados por IA que se integran con cualquier LMS para atraer a equipos globales en varios idiomas.</p>
-            </div>
-          </a>
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-solid fa-soap color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Empresas de contenido</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+            </a>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-solid fa-desktop color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Equipos de comunicacion</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Centralice la comunicación y maximice la interacción con eventos en vivo de alta calidad y alojamiento de video seguro.</p>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Monetice sus videos con todo lo que necesita para aumentar y gestionar su audiencia.</p>
-            </div>
-          </a>
-          <a href="#" class="text-decoretion-none flex gap20px color-gris">
-            <i class="fa-regular fa-building color-black font-size-20px"></i>
-            <div>
-              <div class="flex aling-items-center gap-10px">
-                <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet">Organizaciones empresariales</h3>
-                <i class="fa-solid fa-arrow-right-long color-black"></i>
+            </a>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-solid fa-book-open color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Lideres de aprendizaje y desarrollo</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Escale la capacitación con videos interactivos impulsudados por IA que se integran con cualquier LMS para atraer a equipos globales en varios idiomas.</p>
               </div>
-              <p class="color-grey line-height-1_3 font-size-20px-tablet">Agilice los flujos de trabajo de video en toda su empresa con soluciones personalizables que se adaptan a las necesidades del negocio.</p>
-            </div>
-          </a>
+            </a>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-solid fa-soap color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Empresas de contenido</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Monetice sus videos con todo lo que necesita para aumentar y gestionar su audiencia.</p>
+              </div>
+            </a>
+            <a href="#" class="text-decoretion-none flex gap20px color-gris">
+              <i class="fa-regular fa-building color-black font-size-20px"></i>
+              <div>
+                <div class="flex aling-items-center gap-10px">
+                  <h3 class="color-black font-size-16px margin-top--5px margin-bottom-0 font-weight-500 font-size-20px-tablet font-size-18px-ordenador">Organizaciones empresariales</h3>
+                  <i class="fa-solid fa-arrow-right-long color-black"></i>
+                </div>
+                <p class="color-grey line-height-1_3 font-size-20px-tablet font-size-18px-ordenador">Agilice los flujos de trabajo de video en toda su empresa con soluciones personalizables que se adaptan a las necesidades del negocio.</p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div class="text-aling-center background-color-casi-blanco padding-block-20px font-family-ABC_Repro">

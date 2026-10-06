@@ -634,7 +634,6 @@ header::before {
   color: #97a1ad;
   transition: color 0.5s ease-in-out;
 }
-
 /* --------------- MEDIA QUERYS PARA TABLET ---------------- */
 
 @media (min-width: 768px) {
@@ -769,6 +768,39 @@ header::before {
     display: flex;
   }
 
+  .flex-direction-row-ordenador {
+    flex-direction: row;
+  }
+
+  .justify-content-space-between-ordenador {
+    justify-content: space-between;
+  }
+
+  .gap20px-ordenador {
+    gap: 20px;
+  }
+
+  .gap40px-ordenador {
+    gap: 40px;
+  }
+
+  .gap60px-ordenador {
+    gap: 60px;
+  }
+
+  /* -------------- FONT SIZE -------------------- */
+
+  .font-size-18px-ordenador {
+    font-size: 18px;
+  }
+
+  /* -------------- PADDING Y MARGINS ------------ */
+
+
+  .padding-lados-0-ordenador {
+    padding-inline: 0;
+  }
+
   /* ------------- WIDTH Y HEIGHT ---------------- */
 
   .max-height-688px {
@@ -779,6 +811,10 @@ header::before {
 
   .hidden-ordenador {
     display: none;
+  }
+
+  .top-vimeo-ordenador {
+    top: 4px;
   }
 
 }
