@@ -858,6 +858,10 @@ header::before {
     padding-inline: 0;
   }
 
+  .padding-lados-50px-ordenador {
+    padding-inline: 50px;
+  }
+
   .margin-inline-auto-ordenador {
     margin-inline: auto;
   }
@@ -894,6 +898,10 @@ header::before {
 
   .max-width-700px-ordenador {
     max-width: 700px;
+  }
+
+  .max-width-800px-ordenador {
+    max-width: 800px;
   }
 
   .width-fit-content-ordenador {
